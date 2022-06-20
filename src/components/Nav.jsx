@@ -9,7 +9,7 @@ function Nav({ onSearch }) {
       <nav className="navbar navbar-dark bg-dark">
         <div className="container-fluid">
           <img src={Logo} alt='logo'/>
-          <a className="navbar-brand">Henry - Weather App</a>
+          {/* <a className="navbar-brand">Henry - Weather App</a> */}
           <SearchBar onSearch={onSearch}/>
         </div>
       </nav>

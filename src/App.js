@@ -8,7 +8,7 @@ export default function App() {
   const [ cities, setCities ] = useState([])
 
   function onClose(id) {
-    setCities(oldCities => oldCities.filter(c => c.id != id));
+    setCities(oldCities => oldCities.filter(c => c.id !== id));
   }
 
   function onSearch(ciudad) {
